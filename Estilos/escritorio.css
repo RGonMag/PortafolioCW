@@ -1,0 +1,24 @@
+main{
+    padding: 0px 15%;
+}
+
+.heroe{
+    flex-direction: row;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.heroe_info{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.heroe_titulo{
+    text-align: start;
+}
+.experiencia_contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.experiencia_contenedor div:first-child{
+    margin-top: 0;
+}
